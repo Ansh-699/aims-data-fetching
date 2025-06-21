@@ -17,7 +17,7 @@ const axios_1 = __importDefault(require("axios"));
 const app = (0, express_1.default)();
 const PORT = 3000;
 const STUDENT_ID = '6486352';
-const TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjY0ODYzNTIsImlzcyI6Imh0dHBzOi8vYWJlcy5wbGF0Zm9ybS5zaW1wbGlmaWkuY29tL2FwaS92MS9hZG1pbi9hdXRoZW50aWNhdGUiLCJpYXQiOjE3NDgwMDIwODAsImV4cCI6MTgwODQ4MjA4MCwibmJmIjoxNzQ4MDAyMDgwLCJqdGkiOiIxUnJFOEVSZjJtVmxOMUo2In0.H9OCe3npA1H5-39k1azbFK2VYV8uS6XviLa4mB0NK8g'; // Replace with your full token
+const TOKEN = ''; // Replace with your full token
 // Step 1: fetch all subjects for the student
 function fetchSubjects() {
     return __awaiter(this, void 0, void 0, function* () {
